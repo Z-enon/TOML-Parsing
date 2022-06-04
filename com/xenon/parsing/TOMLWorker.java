@@ -537,7 +537,7 @@ public class TOMLWorker {
      * Use static methods from {@link TOMLWorker} with an instance of it, or directly use {@link #parse(Path)}.
      * @author Zenon
      */
-    private static class Lexer {
+    public static class Lexer {
 
         private boolean end_of_file;
         private int i;
