@@ -1,0 +1,15 @@
+test.jk.x.Z=1
+test.yu="h"
+op={h=5.02, df={z='a', nb = [	#some comment
+]}, dd.k="j"}
+[table1]	## insert comment here
+hungry=false
+hp=50.8
+[table2]
+mp=150
+def=600
+artif={h=1
+# again comment
+}
+[table2.artif]
+that\'s_one = "jek"# last one, i promise
