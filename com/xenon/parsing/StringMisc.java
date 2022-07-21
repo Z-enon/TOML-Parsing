@@ -17,7 +17,7 @@ public class StringMisc {
      */
     public static String unescapeJava(String in) throws ParsingException {
         char[] cs = in.toCharArray();
-        int readIndex = 0, setIndex = 0;    // we work in the same array, 2 cursors are needed
+        int readIndex = 0, setIndex = 0;    // we work on the same array, 2 cursors are needed
         for (; setIndex < cs.length && readIndex < cs.length; setIndex++){
             char c = cs[readIndex];
             if (c == '\\'){
